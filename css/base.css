@@ -4,9 +4,17 @@
 
 main{
     width: 960px;
-    margin: auto;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 body{
     width: 100%;
 }
 
+button{
+    
+    display: inline-block;
+    margin: auto;
+}

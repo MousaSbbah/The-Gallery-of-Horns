@@ -7,13 +7,12 @@ section{
     position: relative;
 }
 img{
-    width: 200px;
+    width: 100%;
     height: 200px;
     margin: 20px 0;
 }
-section{
-    display: none;
-}
+
+
 .show{
     display: block; 
 }
@@ -24,7 +23,7 @@ header{
 
 header select{
     font-size: 20px;
-    margin: 20px;
+    
 }
 footer{
     clear: both;
@@ -35,4 +34,9 @@ section p {
     position: absolute;
     bottom: 0px;
     
+}
+select{
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
 }
